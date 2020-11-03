@@ -1,0 +1,36 @@
+.values {
+    padding: 149px 0;
+    position: relative;
+    background: url("~images/bg/middle.jpg") center center / cover no-repeat;
+    position: relative;
+    &:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        max-width: 682px;
+        background: url("~images/content/hands.png") bottom left no-repeat;
+        display: block;
+        position: absolute;
+        bottom: -8%;
+        left: 0;
+    }
+}
+
+.values__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.values__title-text {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 59px;
+}
+
+.values__content {
+    color: rgba("#fff", .5);
+    width: 54%;
+    font-weight: 600;
+}

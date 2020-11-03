@@ -1,0 +1,33 @@
+.socials {
+    display: flex;
+}
+
+.socials__icon {
+    width: 25px;
+    height: 25px;
+
+    &--footer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.3;
+    }
+}
+
+.socials__item {
+    margin-right: 30px;
+
+    &--footer {
+        position: relative;
+        opacity: 0.3;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

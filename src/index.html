@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width" initial-scale="1"><title>Portfolio | main page</title></head><body><div class="wrapper"><div class="mainContent"><div class="welcome-section"><section class="hero"><div class="container">header.header
+  a.logo(href="#") КМ
+  nav.menu
+    - var menuItems = ["Обо мне", "Навыки", "Работы", "Отзывы"];
+    ul.menu__list
+      each item in menuItems
+        li.menu__item
+          a(href="#").menu__link 
+  - var socials = ["insta", "vk", "github", "envelope"];
+  ul.socials
+    each item in socials
+      li.socials__item
+        a(href="#").socials__link
+          +icon(item, "socials__icon")
+
+.userinfo
+  .userinfo__title Личный сайт веб-разработчика
+  .userinfo__name Кирилл Маевский
+
+.hero__bottom-buttons
+  button.scroll-down-btn Скролл</div></section></div></div></div></body></html>
